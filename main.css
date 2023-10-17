@@ -1,11 +1,13 @@
-
+html{
+    font-size:1px;
+}
 *{
     margin:0;
     padding:0;
 }
 .pinkcontainer{
-    width: 1440px;
-    height: 592px;
+    width: 1440rem;
+    height: 592rem;
     background-color: #ffcd9e;
      display: flex;
     flex-direction:row;
@@ -17,75 +19,76 @@
     justify-content: space-around; 
 }
 .leftpink{
-    height: 575px;
-    width:575px;
-    margin-top: 20px;
-    margin-left:60px;
+    height: 575rem;
+    width:575rem;
+    margin-top: 20rem;
+    margin-left:60rem;
+
 
     
 
 }
 
 .blackcontainer{
-    width: 1440px;
-    height: 298px;
-    top: 592px;
+    width: 1440rem;
+    height: 298rem;
+    top: 592rem;
     background-color: #282828;
     display:flex;
     flex-direction:row;
     justify-content:space-between ;
 }
 .heading{
-    width: 562px;
-    height: 108px;
-    margin-top: 83px;
-    margin-left: 136px;
+    width: 562rem;
+    height: 108rem;
+    margin-top: 83rem;
+    margin-left: 136rem;
     font-family: Inter;
-font-size: 36px;
+font-size: 36rem;
 font-weight: 700;
-line-height: 54px;
+line-height: 54rem;
 letter-spacing: 0em;
 text-align: left;
 color: #282828;
 }
 .para{
-    width: 495px;
-    height: 81px;
-    margin-top:15px;
-    margin-left:136px;
+    width: 495rem;
+    height: 81rem;
+    margin-top:15rem;
+    margin-left:136rem;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 32rem;
     letter-spacing: 0em;
     text-align: left;
-
 }
+
 .text{
-    width: 227px;
-    height: 81px;
-    margin-top: 15px;
-    margin-left: 136px;
+    width: 227rem;
+    height: 81rem;
+    margin-top: 15rem;
+    margin-left: 136rem;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 800;
-    line-height: 32px;
+    line-height: 32rem;
     letter-spacing: 0em;
     text-align: left;
 
 
 }
 .input{
-    width: 350px;
-    height: 64px;
-    margin-top: 17px;
-    margin-left: 136px;
-    border-radius: 8px;
+    width: 350rem;
+    height: 64rem;
+    margin-top: 17rem;
+    margin-left: 136rem;
+    border-radius: 8rem;
     border: 4px solid #000000;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 32rem;
     letter-spacing: 0em;
     text-align: left;
 
@@ -93,30 +96,30 @@ color: #282828;
 }
 button{
     position:absolute;
-    margin-top:340px;
-    width: 216px;
-    height: 64px;
-    margin-left: 496px;
-    width: 216px;
-    border-radius: 8px;
+    margin-top:340rem;
+    width: 216rem;
+    height: 64rem;
+    margin-left: 496rem;
+    width: 216rem;
+    border-radius: 8rem;
     background-color:#282828;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 24rem;
     letter-spacing: 0em;
     text-align: center;
     color:white;
 }
 .smalltext{
-    width: 344px;
-    height: 61px;
-    margin-top: 17px;
-    margin-left: 134px;
+    width: 344rem;
+    height: 61rem;
+    margin-top: 17rem;
+    margin-left: 134rem;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 16rem;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 26rem;
     letter-spacing: 0em;
     text-align: center;
     color:white;
@@ -124,48 +127,47 @@ button{
 
 }
 .left{
-    width: 216px;
-    height: 36px;
-    margin-top: 40px;
-    margin-left:70px;
+    width: 216rem;
+    height: 36rem;
+    margin-top: 40rem;
+    margin-left:70rem;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 32rem;
     letter-spacing: 0em;
     text-align: left;
     color:white;
 
+}
     
 
-}
 .right{
-    width: 148px;
-    height: 36px;
-    margin-top: 75px;
-    margin-left: 100px;
-    margin-right:320px;
+    width: 148rem;
+    height: 36rem;
+    margin-top: 75rem;
+    margin-left: 100rem;
+    margin-right: 320rem;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 20rem;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 32rem;
     letter-spacing: 0em;
-    text-align:end;
-    color: white;;
+    text-align:center;
+    color: white;
 
 } 
 .insta{
-    width: 20px;
-    height: 20px;
-    margin-top: 1px;
-    margin-left:1px;
-    border: 3px;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 1rem;
+    border: 3rem;
 
 }
 .linkedin{
-    width: 20px;
-    height: 20px;
-    margin-top: 1px;
-    margin-left:3px;
-    border: 3px;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 1rem;
+    margin-left:3rem;
+    border: 3rem;
 }
